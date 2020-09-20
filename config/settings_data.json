@@ -1,0 +1,735 @@
+{
+  "current": {
+    "color_text": "#3a3a3a",
+    "color_body_text": "#333232",
+    "color_sale_text": "#fa4545",
+    "color_button": "#3a3a3a",
+    "color_button_text": "#ffffff",
+    "color_small_button_text_border": "#3a3a3a",
+    "color_text_field_text": "#000000",
+    "color_text_field_border": "#cccccc",
+    "color_text_field": "#ffffff",
+    "color_image_overlay_text": "#ffffff",
+    "color_image_overlay": "#685858",
+    "image_overlay_opacity": 40,
+    "color_borders": "#ebebeb",
+    "color_body_bg": "#ffffff",
+    "type_header_font": "helvetica_n4",
+    "type_header_base_size": 26,
+    "type_base_font": "helvetica_n4",
+    "type_base_size": 15,
+    "predictive_search_enabled": true,
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": false,
+    "share_image": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/bodyfitmealpreplasvegas\/",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/bodyfitmealpreplasvegas\/",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "favicon": "shopify:\/\/shop_images\/Body_Fit_Prep_Logo_200px_31db0447-2fd5-4ece-8ce1-20c2601af570.png",
+    "enable_ajax": true,
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/Body_Fit_Prep_Logo_200px.png",
+          "logo_max_width": 100,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": false,
+          "message_text": "",
+          "message_link": "",
+          "color_bg": "#3a3a3a",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "large",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#f6f6f6",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 3
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": true
+        }
+      },
+      "product-lean-template": {
+        "type": "product-lean-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-gain-template": {
+        "type": "product-gain-template",
+        "settings": {
+          "show_quantity_selector": true,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_payment_button": false,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "1592369914238": {
+        "type": "collection-list",
+        "blocks": {
+          "1592369914238-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "custom-meal"
+            }
+          },
+          "1592369914238-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "signature-meals"
+            }
+          },
+          "1592369914238-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "by-pound"
+            }
+          }
+        },
+        "block_order": [
+          "1592369914238-0",
+          "1592369914238-1",
+          "1592369914238-2"
+        ],
+        "settings": {
+          "title": "",
+          "grid": 3
+        }
+      },
+      "1595191001112": {
+        "type": "custom-content",
+        "blocks": {
+          "1595191076494": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"text-center\">\n<h1>\"Eat Healthy Today Feel Better Tomorrow\"<\/h1>\n<a href=\"https:\/\/bodyfitpreplv.com\/collections\"><button class=\"btn btn-brand\">Start My Order Now\n<svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"icon icon-cart\" viewbox=\"0 0 37 40\"><path d=\"M36.5 34.8L33.3 8h-5.9C26.7 3.9 23 .8 18.5.8S10.3 3.9 9.6 8H3.7L.5 34.8c-.2 1.5.4 2.4.9 3 .5.5 1.4 1.2 3.1 1.2h28c1.3 0 2.4-.4 3.1-1.3.7-.7 1-1.8.9-2.9zm-18-30c2.2 0 4.1 1.4 4.7 3.2h-9.5c.7-1.9 2.6-3.2 4.8-3.2zM4.5 35l2.8-23h2.2v3c0 1.1.9 2 2 2s2-.9 2-2v-3h10v3c0 1.1.9 2 2 2s2-.9 2-2v-3h2.2l2.8 23h-28z\"><\/path><\/svg>\n<\/button><\/a>\n<\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "1595191076494"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1595191721421": {
+        "type": "slideshow",
+        "blocks": {
+          "1595191721421-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/5.jpg",
+              "alignment": "center center",
+              "slide_title": "CUSTOM MEALS",
+              "subheading": "",
+              "button_label": "ORDER NOW",
+              "button_link": "shopify:\/\/collections\/custom-meal"
+            }
+          },
+          "1595191721421-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/6.jpg",
+              "alignment": "center center",
+              "slide_title": "SIGNATURE MEALS",
+              "subheading": "",
+              "button_label": "ORDER NOW",
+              "button_link": "shopify:\/\/collections\/signature-meals"
+            }
+          },
+          "1595192122997": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/8.jpg",
+              "alignment": "center center",
+              "slide_title": "MEALS BY POUND",
+              "subheading": "",
+              "button_label": "ORDER NOW",
+              "button_link": "shopify:\/\/collections\/by-pound"
+            }
+          }
+        },
+        "block_order": [
+          "1595191721421-0",
+          "1595191721421-1",
+          "1595192122997"
+        ],
+        "settings": {
+          "slideshow_height": "medium",
+          "text_size": "large",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": true,
+          "autorotate_speed": 3
+        }
+      },
+      "1595192951908": {
+        "type": "custom-content",
+        "blocks": {
+          "1595192976807": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"container\">\n\t\t\t<div class=\"card\">\n\t\t\t\t<div class=\"card-header\">\n\t\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/7951\/6986\/files\/Click_575d9137-0bf6-4f98-8166-46b7835b802a.png?v=1595546240\" alt=\"rover\">\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"card-body\">\n\n\t\t\t\t\t<h4 class=\"main-slogan\">Choose Your Meals<\/h4>\n\t\t\t\t\t<p>Click on Start My Order Now, select how many Fit Meals you would like to order.<\/p>\n\t<p>\t\t\t\t\tWe have a wide variety of our deliciously clean,\n\t\t\t\t\t\twell balanced portions with the option to customize your own Fit Meals.<\/p>\n\t\t\t\t\t\t<p>And now... Checkout!<\/p>\n\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"card\">\n\t\t\t\t<div class=\"card-header\">\n\t\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/7951\/6986\/files\/Preparation.png?v=1595546240\" alt=\"rover\">\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"card-body\">\n\n\t\t\t\t\t<h4 class=\"main-slogan\">Preparation<\/h4>\n\t\t\t\t\t<p>We cook, prepare and weight your Fit Meals\n\t\t\t\t\t\twith premium ingredients in our USDA kitchen.<\/p>\n\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"card\">\n\t\t\t\t<div class=\"card-header\">\n\t\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/7951\/6986\/files\/Delivery_8603594d-525c-4f7f-8e2e-223c78f738ae.png?v=1595546241\" alt=\"rover\">\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"card-body\">\n\n\t\t\t\t\t<h4 class=\"main-slogan\">Delivery<\/h4>\n\t\t\t\t\t<p>It is time for us\n\t\t\t\t\t\tto do our part delivering\n\t\t\t\t\t\tyour order in the best way.\n\t\t\t\t\t\tOur schedules for deliveries are every\n\t\t\t\t\t\tMonday and Thursday from 10:00am to 3:00pm.<\/p>\n\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\t\t\t<div class=\"card\">\n\t\t\t\t<div class=\"card-header\">\n\t\t\t\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0267\/7951\/6986\/files\/Microwave_8ad0f7da-8e91-4e65-84cd-d30ae39cdfa3.png?v=1595546240\" alt=\"rover\">\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"card-body\">\n\n\t\t\t\t\t<h4 class=\"main-slogan\">Enjoy your Meal<\/h4>\n\t\t\t\t\t<p>You just have to heat your food in the microwave and enjoy your Healty Fit Meal without worrying about cooking<\/p>\n\n\t\t\t\t<\/div>\n\t\t\t<\/div>\n\n\t\t<\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "1595192976807"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "1595196848192": {
+        "type": "custom-content",
+        "blocks": {
+          "1595196881717": {
+            "type": "html",
+            "settings": {
+              "code": "<div class=\"black-banner\">\n<h3>Orders for Delivery Monday, you can order Sunday before 12:00pm<\/h3>\n<h3>Orders for Delivery Thursday, you can order Wednesday before 2:00pm<\/h3>\n<\/div>",
+              "width": "100%"
+            }
+          }
+        },
+        "block_order": [
+          "1595196881717"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "custom-meal-page": {
+        "type": "custom-meal-page",
+        "blocks": {
+          "1595287870175": {
+            "type": "collection",
+            "settings": {
+              "collection": "custom-meal"
+            }
+          }
+        },
+        "block_order": [
+          "1595287870175"
+        ],
+        "settings": {
+          "display_type": "selected",
+          "sort": "alphabetical",
+          "grid": 2
+        }
+      }
+    },
+    "content_for_index": [
+      "1595191721421",
+      "hero-1",
+      "1595191001112",
+      "1595192951908",
+      "1595196848192",
+      "1592369914238"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_variant_labels": true,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
