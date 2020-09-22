@@ -242,7 +242,11 @@
 
   <p class="line-item-property__field">
     <label for="nutritionFacts">Nutrition Facts</label>
-    <textarea id="nutritionFacts" name="properties[nutritionFacts]"></textarea>
+    <textarea id="nutritionFacts" name="properties[Nutrition Facts]"></textarea>
+  </p>
+  <p class="line-item-property__field">
+    <label for="useByDate">Use By Date</label>
+    <textarea id="useByDate" name="properties[Use By Date]"></textarea>
   </p>
 </div>
 
@@ -901,6 +905,7 @@ const selectCarbElement = document.querySelector('#carbohydrates');
 const selectVeggiesElement = document.querySelector('#vegetables');
 const selectProteinElement = document.querySelector('#SingleOptionSelector-0');
 const nutritionFactsElement = document.querySelector('#nutritionFacts');
+const useByDateElement = document.querySelector('#useByDate');
 
 selectCarbElement.addEventListener('change', renderOptionDetails);
 selectVeggiesElement.addEventListener('change', renderOptionDetails);
@@ -933,7 +938,42 @@ const nutritionFacts = {
     totalFat: null,
     totalCalories: null,
   }
+  let targetDate = new Date();
+const day = targetDate.getDay();
 
+
+  switch (day) {
+    case 0:
+    targetDate.setDate(targetDate.getDate() + 4);
+      break;
+    case 1:
+    targetDate.setDate(targetDate.getDate() + 6);
+      break;
+    case 2:
+    targetDate.setDate(targetDate.getDate() + 5);
+      break;
+    case 3:
+    targetDate.setDate(targetDate.getDate() + 4);
+      break;
+    case 4:
+    targetDate.setDate(targetDate.getDate() + 7);
+      break;
+    case 5:
+    targetDate.setDate(targetDate.getDate() + 6);
+      break;
+    case 6:
+    targetDate.setDate(targetDate.getDate() + 5);
+      break;
+
+    default:
+      break;
+  }
+
+  const dd = targetDate.getDate();
+const mm = targetDate.getMonth() + 1; // 0 is January, so we must add 1
+const yyyy = targetDate.getFullYear();
+
+const dateString = dd + "/" + mm + "/" + yyyy;
 
 function renderOptionDetails() {
   const optionCategory = this.id;
@@ -963,20 +1003,21 @@ function renderOptionDetails() {
 
   console.log('currentChoices',currentChoices)
   function getTotalFacts() {
-    nutritionFacts.totalProtein = (currentChoices.protein.protein + currentChoices.carbohydrates.protein + currentChoices.vegetables.protein).toFixed(2)
-    nutritionFacts.totalCarbs = (currentChoices.protein.carbs + currentChoices.carbohydrates.carbs + currentChoices.vegetables.carbs).toFixed(2)
-    nutritionFacts.totalFat = (currentChoices.protein.fat + currentChoices.carbohydrates.fat + currentChoices.vegetables.fat).toFixed(2)
-    nutritionFacts.totalCalories = (currentChoices.protein.calories + currentChoices.carbohydrates.calories + currentChoices.vegetables.calories).toFixed(2)
+    nutritionFacts.totalProtein = Math.round((currentChoices.protein.protein + currentChoices.carbohydrates.protein + currentChoices.vegetables.protein))
+    nutritionFacts.totalCarbs = Math.round((currentChoices.protein.carbs + currentChoices.carbohydrates.carbs + currentChoices.vegetables.carbs))
+    nutritionFacts.totalFat = Math.round((currentChoices.protein.fat + currentChoices.carbohydrates.fat + currentChoices.vegetables.fat))
+    nutritionFacts.totalCalories = Math.round((currentChoices.protein.calories + currentChoices.carbohydrates.calories + currentChoices.vegetables.calories))
 
     nutritionFactsElement.textContent = `
-          Protein: ${nutritionFacts.totalProtein ? nutritionFacts.totalProtein : 0}
-          Carbs: ${nutritionFacts.totalCarbs ? nutritionFacts.totalCarbs : 0}
-          Fat: ${nutritionFacts.totalFat ? nutritionFacts.totalFat : 0}
-          Calories: ${nutritionFacts.totalCalories ? nutritionFacts.totalCalories : 0}`;
+    Protein: ${nutritionFacts.totalProtein ? `${nutritionFacts.totalProtein}g` : 0}
+    Carbs: ${nutritionFacts.totalCarbs ? `${nutritionFacts.totalCarbs}g` : 0}
+    Fat: ${nutritionFacts.totalFat ? `${nutritionFacts.totalFat}g` : 0}
+    Calories: ${nutritionFacts.totalCalories ? `${nutritionFacts.totalCalories}` : 0}`;
+
+    useByDateElement.textContent = `${dateString}`
   }
   getTotalFacts()
 
-  console.log(nutritionFacts)
 
   const result = document.querySelector(renderCategoryContainer);
 
