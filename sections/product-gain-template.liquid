@@ -230,7 +230,7 @@
           <select required class="required" id="vegetables" name="properties[Vegetables]" class="product-form__variants no-js">
             <option value="">Select One …</option>
             <option value="Asparagus (4oz)" data-option="asparagus">Asparagus (4oz)</option>
-            <option value="Brocoli (4oz)" data-option="broccoli">Broccoli (4oz)</option>
+            <option value="Broccoli (4oz)" data-option="broccoli">Broccoli (4oz)</option>
             <option value="Green Beans (4oz)" data-option="greenBeans">Green Beans (4oz)</option>
             <option value="Bell Pepper (4oz)" data-option="bellPepper">Bell Pepper (4oz)</option>
             <option value="Mixed Vegetales (4oz)" data-option="mixVegetable">Mixed Vegetales (4oz)</option>
@@ -951,6 +951,7 @@ const day = targetDate.getDay();
       break;
     case 2:
     targetDate.setDate(targetDate.getDate() + 5);
+
       break;
     case 3:
     targetDate.setDate(targetDate.getDate() + 4);
@@ -969,11 +970,12 @@ const day = targetDate.getDay();
       break;
   }
 
+
   const dd = targetDate.getDate();
 const mm = targetDate.getMonth() + 1; // 0 is January, so we must add 1
 const yyyy = targetDate.getFullYear();
 
-const dateString = dd + "/" + mm + "/" + yyyy;
+const dateString = mm + "/" + dd + "/" + yyyy;
 
 function renderOptionDetails() {
   const optionCategory = this.id;
